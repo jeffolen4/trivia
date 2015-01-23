@@ -1,24 +1,19 @@
-body {
+.container {
   background: url(../img/tardis_background_2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;     
 }
+
 
 h2 {
   color: white;
   text-align: center;
   padding-bottom: 25px;
 }
-/*body {
-  background: url("http://www.olen-inc.com/tardis_background_2.jpg");
-  background-size: % 125%;
-}*/
 
 #space {
-  /*padding: 4px;*/
-  /*margin-top: 125px;*/
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -41,16 +36,6 @@ h2 {
   -webkit-transition: 3s linear;
 
 }
-
-/*#space:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}*/
-
-/*#spaceship:hover {
--webkit-animation-play-state: paused;
-animation-play-state: paused;
-}*/
 
 .spin-fwd {
   -webkit-animation-name: spin-fwd;

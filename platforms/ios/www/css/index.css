@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -112,4 +113,13 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.page-content {
+  background: url(../img/tardis_background_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
 }
